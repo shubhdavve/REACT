@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+
+@font-face {
+  font-family: 'clash';
+  src: url('../public/Fonts/OTF/ClashGrotesk-Extralight.otf');
+}
+
+#root
+{
+  display: flex;
+}
+
+label
+{
+    margin-bottom: 15px;
+    margin-left: 3%;
+}
+
+input{
+  margin-bottom: 5px;
+  margin-left: 3%;
+}
+
+button
+{
+  margin-top: 3%;
+  margin-left: 3%;
+}
